@@ -16,6 +16,9 @@
     Password : <input type = "password" name = "password" required><br>
     <br>
     <button type = "submit">Login</button>
+    <p></p>
+    <p><a href="${pageContext.request.contextPath}/drivers/add" style="color: black">Sign up</a></p>
 </form>
 </body>
 </html>
+

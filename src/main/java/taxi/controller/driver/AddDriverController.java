@@ -6,6 +6,8 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import taxi.lib.Injector;
 import taxi.model.Driver;
 import taxi.service.DriverService;
@@ -14,6 +16,7 @@ import taxi.service.DriverService;
 public class AddDriverController extends HttpServlet {
     private static final String PAGE_PATH = "/WEB-INF/views/drivers/add.jsp";
     private static final Injector injector = Injector.getInstance("taxi");
+    private static final Logger logger = LogManager.getLogger(AddDriverController.class);
     private DriverService driverService;
 
     @Override
@@ -24,14 +27,15 @@ public class AddDriverController extends HttpServlet {
 
     @Override
     public void doPost(HttpServletRequest req, HttpServletResponse resp)
-            throws IOException, ServletException {
+            throws IOException {
         String name = req.getParameter("name");
         String licenseNumber = req.getParameter("license_number");
         String login = req.getParameter("login");
         String password = req.getParameter("password");
         Driver driver = new Driver(name, licenseNumber, login, password);
         driverService.create(driver);
-        resp.sendRedirect("index");
+        logger.debug("Created driver. Params: driverId = {}", driver.getId());
+        resp.sendRedirect("/index");
     }
 
     @Override
