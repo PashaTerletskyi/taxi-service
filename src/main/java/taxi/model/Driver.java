@@ -66,6 +66,7 @@ public class Driver {
                 + ", name='" + name + '\''
                 + ", licenseNumber='" + licenseNumber + '}';
     }
+
     @Override
     public boolean equals(Object object) {
         if (this == object) {
