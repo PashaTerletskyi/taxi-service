@@ -30,7 +30,7 @@ Simple website. where you can make connection taxi drivers with cars.
 
 ## _DATABASE STRUCTURE :_
 
-![structure](resources/8.png)
+ ![structure](resources/1.png)
 
 ## _HOW TO RUN PROJECT :_
 
@@ -39,7 +39,7 @@ Simple website. where you can make connection taxi drivers with cars.
 1. Configure Tomcat(9.0.50 or above).
 1. Install MySQL.
 1. Install MySQL Workbench(8.0.25 or above). 
-1. Change your parameters (Example below) ![example](resources/6.png)
+1. Change your parameters (Example below) ![example](resources/2.png)
 1. Configure Tomcat (Local).
-1. Change path to your absolute path in log4j2.xml ![log4j2.xml](resources/5.png)
+1. Change path to your absolute path in log4j2.xml ![log4j2.xml](resources/3.png)
 
