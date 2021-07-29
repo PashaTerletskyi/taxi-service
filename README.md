@@ -1,8 +1,6 @@
 # **TAXI SERVICE**
 Simple website. where you can make connection taxi drivers with cars.
 
-<a href="resources/home.html" target="popup" onclick="window.open('resources/home.html','name','width=600,height=400')">EXAMPLE</a>
-
 ## _FUNCTIONS :_
 
 1. Create new manufacturer.
@@ -32,7 +30,7 @@ Simple website. where you can make connection taxi drivers with cars.
 
 ## _DATABASE STRUCTURE :_
 
-![databasestructure](resources/8.png)
+![structure](resources/8.png)
 
 ## _HOW TO RUN PROJECT :_
 
