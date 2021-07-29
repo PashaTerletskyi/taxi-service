@@ -1,7 +1,7 @@
 # **TAXI SERVICE**
 Simple website. where you can make connection taxi drivers with cars.
 
-## [_EXAMPLE_](resources/home.html)
+<a href="resources/home.html" target="popup" onclick="window.open('resources/home.html','name','width=600,height=400')">EXAMPLE</a>
 
 ## _FUNCTIONS :_
 
@@ -32,7 +32,7 @@ Simple website. where you can make connection taxi drivers with cars.
 
 ## _DATABASE STRUCTURE :_
 
-![database structure](resources/8.png)
+![databasestructure](resources/8.png)
 
 ## _HOW TO RUN PROJECT :_
 
