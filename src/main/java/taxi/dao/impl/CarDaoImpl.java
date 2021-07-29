@@ -224,7 +224,7 @@ public class CarDaoImpl implements CarDao {
     }
 
     private Driver parseDriverFromResultSet(ResultSet resultSet) throws SQLException {
-        long driverId = resultSet.getLong("id");
+        long driverId = resultSet.getObject("id", Long.class);
         String name = resultSet.getNString("name");
         String licenseNumber = resultSet.getNString("license_number");
         Driver driver = new Driver(name, licenseNumber);
@@ -238,7 +238,7 @@ public class CarDaoImpl implements CarDao {
         String manufacturerCountry = resultSet.getNString("manufacturer_country");
         Manufacturer manufacturer = new Manufacturer(manufacturerName, manufacturerCountry);
         manufacturer.setId(manufacturerId);
-        long carId = resultSet.getLong("id");
+        long carId = resultSet.getObject("id", Long.class);;
         String model = resultSet.getNString("model");
         Car car = new Car(model, manufacturer);
         car.setId(carId);
