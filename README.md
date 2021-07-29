@@ -1,10 +1,6 @@
 # **TAXI SERVICE**
 Simple website. where you can make connection taxi drivers with cars.
 
-## _EXAMPLE :_
-
-<img src="https://i.ibb.co/tzhsQ3Z/ezgif-1-fa2c3820cd42.gif" alt="example">
-
 ## _FUNCTIONS :_
 
 1. Create new manufacturer.
