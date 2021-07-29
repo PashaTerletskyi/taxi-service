@@ -45,5 +45,5 @@ Simple website. where you can make connection taxi drivers with cars.
 1. Configure Tomcat (Local).
 1. Change path to your absolute path in log4j2.xml
    
-<a href="https://ibb.co/3CWTRQ6"><img src="https://i.ibb.co/crtyYVf/3.png" alt="3" border="0"></a>
+   <a href="https://ibb.co/3CWTRQ6"><img src="https://i.ibb.co/crtyYVf/3.png" alt="3" border="0"></a>
 
