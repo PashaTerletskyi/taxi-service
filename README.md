@@ -1,6 +1,10 @@
 # **TAXI SERVICE**
 Simple website. where you can make connection taxi drivers with cars.
 
+## _EXAMPLE :_
+
+<img src="https://i.ibb.co/tzhsQ3Z/ezgif-1-fa2c3820cd42.gif" alt="example">
+
 ## _FUNCTIONS :_
 
 1. Create new manufacturer.
@@ -30,7 +34,7 @@ Simple website. where you can make connection taxi drivers with cars.
 
 ## _DATABASE STRUCTURE :_
 
-<a href="https://ibb.co/J3vz3jK"><img src="https://i.ibb.co/9ZbqZHN/1.png" alt="1" border="0"></a>
+<img src="https://i.ibb.co/9ZbqZHN/1.png" alt="1">
 
 ## _HOW TO RUN PROJECT :_
 
@@ -41,9 +45,9 @@ Simple website. where you can make connection taxi drivers with cars.
 1. Install MySQL Workbench(8.0.25 or above). 
 1. Change your parameters (Example below) 
    
-   <a href="https://ibb.co/3BYY8YL"><img src="https://i.ibb.co/72NNTN6/2.png" alt="2" border="0"></a>
+   <img src="https://i.ibb.co/72NNTN6/2.png" alt="2">
 1. Configure Tomcat (Local).
 1. Change path to your absolute path in log4j2.xml
    
-   <a href="https://ibb.co/3CWTRQ6"><img src="https://i.ibb.co/crtyYVf/3.png" alt="3" border="0"></a>
+   <img src="https://i.ibb.co/crtyYVf/3.png" alt="3">
 
