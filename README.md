@@ -1,5 +1,5 @@
 # **TAXI SERVICE**
-Simple website. where you can make connection taxi drivers with cars.
+Simple website, where you can connect taxi drivers with cars.
 
 ## _FUNCTIONS :_
 
@@ -34,7 +34,7 @@ Simple website. where you can make connection taxi drivers with cars.
 
 ## _HOW TO RUN PROJECT :_
 
-1. Create new maven project in your IDE.
+1. Clone this project and open it in your IntelliJ IDEA.
 1. Add SDK(11 or above).
 1. Configure Tomcat(9.0.50 or above).
 1. Install MySQL.
